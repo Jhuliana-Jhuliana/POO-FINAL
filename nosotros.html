@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyería artesanales</title>
+    <link rel="icon" href="img/tiendaarete.jpeg">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+
+        body{
+            background-color: rgb(228, 215, 200);
+           
+        }
+
+        .navbar-nav .nav-link {
+            color: black;
+        }
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: rgb(188, 79, 255);
+        }
+        
+        .navbar-nav .nav-item img {
+            width: 50px; 
+            height: 24px;
+        }
+
+        
+        h2{
+            font-family: "Playwrite BE VLG", cursive;
+            padding-bottom: 40px;
+        }
+
+        p{
+            font-family: "Montserrat", sans-serif;
+            
+        }
+
+        .fila1{
+           display: flex;
+           background-color: rgb(76, 83, 86);
+           align-items: center;
+           color: white;
+            
+        }
+
+        .imgbot{
+            display: flex;
+            padding-left: 50%;
+            padding-right: 50px;
+        }
+
+        .pbot{
+            padding-left: 50px;
+        }
+        .contactos{
+            padding-left: 50px; 
+            display: flex;
+            justify-content: space-around;
+            
+        }
+
+        .h1bot{
+            padding-left: 100px;
+            font-family: "Playwrite BE VLG", cursive;
+            font-size: 40px;
+           
+        }
+
+        h3{
+            font-family: "IBM Plex Mono", monospace;
+        }
+       
+    </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cupones.html">Sale/Cupones</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="tienda.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tienda
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Opción 1</a>
+                    <a class="dropdown-item" href="#">Opción 2</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="crealo.html">Crealo</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="img/bucar.jpeg" alt=""><i class="fas fa-search"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="iniciarsession.html"><img src="img/session.jpeg" alt=""><i class="fas fa-user"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="img/carrito.jpeg" alt=""><i class="fas fa-shopping-cart"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <br><br><br>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 content">
+            <h2>Joyería hecha por artesanos peruanos</h2>
+            <p><strong>Precio Justo</strong></p>
+            <p><em>Diga adiós a las tradicionales joyerías con precios elevados, nosotros diseñamos joyería fina que puedes usar todos los días</em></p>
+            <p><strong>Alta Calidad</strong></p>
+            <p>Trabajamos con joyeros cuzqueños expertos que utilizan materiales duraderos y de alta calidad, desde metales preciosos (como oro reciclado y extraído de manera responsable) hasta diamantes de origen ético y piedras preciosas.</p>
+            <a href="#contactos" class="btn btn-secondary">Leer más</a>
+        </div>
+        <div class="col-md-4 image-container">
+            <img src="img/fotonosotros.jpeg" height="400" alt="Joyas">
+        </div>
+    </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br>
+<div class="nosotros">
+
+    <div class="fila1">
+        <p class="pbot">"La marca justifica su nombre, Libertad con elegancia, algo que todos merecemos."</p>
+        <div class="imgbot">
+            <img src="img/nosotrosimgl.jpeg" alt="" width="100px">
+            <img src="img/nosotrosimgl2.jpeg" alt="" width="100px">
+            <img src="img/nosotrossimgl3.jpeg" alt="" width="100px">
+        </div>
+    </div>
+</div>
+<br><br>
+    <div class="h1bot">
+    <h1>GEMAS DEL PERU</h1>
+    </div>
+<br><br>
+<div class="contactos" id="contactos">
+        
+    <div class="redes">
+        <h3>Soporte</h3>
+        <br>
+        <p>Preguntas frecuentes</p>
+        <p>Compras virtuales</p>
+        <P>Envios y devoluciones</P>
+        <p>Medidor de anillos</p>
+        <p>Contacto</p>
+    </div>
+
+    <div class="redes2">
+        <h3>Compania</h3>
+        <br>
+        <p>Sobre nosotros</p>
+        <p>Historias</p>
+        <P>Nuevas novedades</P>
+    </div>
+
+    <div class="redes3">
+        <h3>Recibir notificaciones sobre nueva llegadas</h3>
+        <br>
+        Escriba su correo: <input type="email" name="email" placeholder="Nombre@gmail.com">
+        
+    </div>
+
+    <div class="redes4">
+        <h3>Siguenos en nuestras redes:</h3>
+        <br>
+        <img src="img/insta.jfif" alt="" width="40px" style="border-radius: 20px;">
+        <img src="img/whatsaap.png" alt="" width="40px" style="border-radius: 20px;">
+        <img src="img/twitter.webp" alt="" width="40px" style="border-radius: 20px;">
+        <img src="img/facebook.png" alt=""  width="50px" style="border-radius: 20px;">
+    </div>
+
+</div>
+
+
+    
+
+
+
+
+</body>
+</html>
